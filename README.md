@@ -1,7 +1,8 @@
 # Aufbau
 Es gibt eine Company Entity die eine Liste von Employees enthält.\
 Jeder Employee kann / ist einer Company zugeordnet.\
-Die Datenbank wird über ein Flyway Script erstellt.
+Die Datenbank wird über ein Flyway Script erstellt.\
+Bei einem Post, bei der zwei Entitäten in Beziehung stehen, muss die URL anstatt ein Objekt übergeben werden.\
 
 ### Starte Docker Container mit PostgreSQL Datenbank
 ```bash

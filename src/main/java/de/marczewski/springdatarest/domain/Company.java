@@ -1,8 +1,7 @@
 package de.marczewski.springdatarest.domain;
 
 import jakarta.persistence.*;
-import lombok.Getter;
-import lombok.Setter;
+import lombok.*;
 
 import java.util.List;
 
@@ -11,6 +10,9 @@ import java.util.List;
 @Entity(name = "company")
 @Getter
 @Setter
+@Builder
+@AllArgsConstructor
+@NoArgsConstructor
 public class Company {
 
     @Id

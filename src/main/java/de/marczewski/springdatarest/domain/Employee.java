@@ -4,8 +4,6 @@ import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
 
-import java.io.Serializable;
-
 // Schema is needed for PostgreSQL
 @Table(name = "employee", schema = "public")
 @Entity(name = "employee")
