@@ -1,0 +1,1 @@
+docker exec -it spring-data-rest-postgres psql -U postgres -d spring-data-rest
