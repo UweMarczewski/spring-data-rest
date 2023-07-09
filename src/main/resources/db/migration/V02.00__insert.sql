@@ -1,0 +1,1 @@
+INSERT INTO company (name, number_of_employees) VALUES ('Company A', 100);
